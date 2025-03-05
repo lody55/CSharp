@@ -5,16 +5,16 @@ using UnityEngine;
 public class PrefixOperator : MonoBehaviour
 {
     // Start is called once before the first execution of Update after the MonoBehaviour is created
-    void Start()
-    {
-        int num = 100;
-        int i = 3;
-        int j = ++i;
+    //void Start()
+    //{
+    //    int num = 100;
+    //    int i = 3;
+    //    int j = ++i;
 
-        Debug.Log("j : "+j);
+    //    Debug.Log("j : "+j);
 
 
-    }
+    //}
 
 
 }
