@@ -20,8 +20,7 @@ public class ForSumEven : MonoBehaviour
         //for (int i = 1; i < n+1; i = i ++)
         //{
         //    if (i % 2 == 0) // 짝수 판별기능
-        //        sum = sum + i;
-
+        //       
 
         //}
         //    Debug.Log(sum);

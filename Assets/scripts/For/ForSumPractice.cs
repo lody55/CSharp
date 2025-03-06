@@ -10,7 +10,7 @@ public class ForSumPractice : MonoBehaviour
         int n = 100;
         for(int i = 1; i < n+1; i++ )
         {
-            if( i % 3 ==0) //>>>>>>>>>>>>>>>>>>>> if(i % 3 ==0 || i % 4 ==0) 하면 같은 효과
+            if( i % 3 ==0) //>>>>>>>>>>>>>>>>>>>> if(i % 3 ==0 || i % 4 ==0) 하면 같은 효과 , 
             {
                 sum = sum + i;
             }
