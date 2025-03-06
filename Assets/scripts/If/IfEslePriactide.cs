@@ -7,24 +7,38 @@ public class IfEslePriactide : MonoBehaviour
     void Start()
     {
 
-        int score = 85;
+        int score = 95;
+        string medal = "";
+
+
         if (score >= 90)
 
 
-        { Debug.Log("금메달"); }
-
-
-        else if (score >= 80)
-        { Debug.Log("은메달"); }
-
-        else if (score >= 70)
-        { Debug.Log("동메달"); }
+        {
+            medal = "금메달";
+        }
 
 
         else
         {
-            Debug.Log("노메달");
+            if (score >= 80)
+            {
+                medal = "은메달";
+            }
+            else
+            {
+                if (score >= 70)
+                    medal = "동메달";
+                else
+                {
+                    medal = "노메달";
+                }
+
+            }
+
+
         }
+        Debug.Log(medal + "수상하셧습니다");
 
     }
 }

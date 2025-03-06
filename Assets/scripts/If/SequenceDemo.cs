@@ -29,7 +29,7 @@ public class SequenceDemo : MonoBehaviour
 = <제어문> : 프로그램의 흐름(순서)를 정하는 구문
 - 순차문 : 위에서 아래로 순서대로 명령문을 실행 
 - 조건문(If - else, switch) : 조건에 따른 서로 다른 명령문을 실행 합니다.
-- 반복문
+- 반복문(for , while...등등)
 
 
 */
