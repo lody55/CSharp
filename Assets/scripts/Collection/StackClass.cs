@@ -7,14 +7,15 @@ public class StackClass : MonoBehaviour
     // Start is called once before the first execution of Update after the MonoBehaviour is created
     void Start()
     {
-        //Stack Å¬·¡½ºÀÇ ÀÎ½ºÅÏ½º(°´Ã¼) »ı¼º
+
+        //Stack í´ë˜ìŠ¤ì˜ ì¸ìŠ¤í„´ìŠ¤(ê°ì²´) ìƒì„±
         Stack st = new Stack();
 
-        //Stack¿¡ µ¥ÀÌÅÍ ³Ö±â : Push(¸Ş¼­µå)
+        //Stackì— ë°ì´í„° ë„£ê¸° : Push(ë©”ì„œë“œ)
         st.Push("First");
         st.Push("Second");
 
-        //Stack¿¡¼­ µ¥ÀÌÅÍ ²¨³»±â : Pop
+        //Stackì—ì„œ ë°ì´í„° êº¼ë‚´ê¸° : Pop
         Debug.Log(st.Pop());
         Debug.Log(st.Pop());
 
