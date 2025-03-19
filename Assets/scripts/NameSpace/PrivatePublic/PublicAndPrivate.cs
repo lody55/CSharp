@@ -23,6 +23,12 @@ namespace PrivatePublic
 
             //[3]Car 클래스의 객체를  통해 private한 필드에 접근해서 사용(X)
             //mycar.Bye();  
+
+            //private age 접근 사용
+            mycar.SetAge(21);
+            int myAge = mycar.GetAge();
+            Debug.Log(myAge);
+
         }
 
 

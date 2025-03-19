@@ -20,5 +20,18 @@ namespace PrivatePublic
         {
             Debug.Log("안녕히 계세요");
         }
+
+        //private한 필드(age)를 외부에 공개하고자 할 때 public한 메서드를 이용한다
+        //매개변수로 나이를 입력받아 age에 저장하는 함수
+        public void SetAge(int iAge)
+        {
+            age = iAge;
+            
+        }
+        //age를 반환하는 함수 
+        public int GetAge()
+        {
+            return age;
+        }
     }
 }
