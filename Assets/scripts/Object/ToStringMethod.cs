@@ -6,7 +6,7 @@ public class My
     //Empty
 }
 
-public class Your
+public class Yours
 {
     //ToString()을 다시 정의하여 새로운 문자열 출력
     public override string ToString()
@@ -26,7 +26,7 @@ public class ToStringMethod : MonoBehaviour
         //인스턴스(개체)를 출력하라 >>>> 클래스 이름 출력된다
         Debug.Log(my);
 
-        Your your = new Your();
+        Yours your = new Yours();
 
         Debug.Log(your);
     }
